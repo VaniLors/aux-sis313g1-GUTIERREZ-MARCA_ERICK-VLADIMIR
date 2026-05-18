@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Practica 5</h1>
+    
+    <b>1.- Existen dos formas principales de conectar un archivo HTML con JavaScript.
+Explique cuáles son estas 2 formas y proporcione un ejemplo básico de cada
+una.</b>
+
+<p>R1.- La primera forma es usarlo dentro del HTLM con la etiqueta Script</p>
+
+<p>R2.- Y la segunda se usa igual que el style.css , creando un archivo aparte llamado script.js</p>
+    <b>2.- Explique paso a paso cómo visualizar los resultados de JavaScript
+utilizando la consola del navegador.</b>
+
+<p>R.- Para mostrar en consola un mensaje en el script.js usamos la instruccion de console.log(texto,o variable que sea = a un texto)</p>
+
+<b>3.- Explique qué son las variables en JavaScript y cuál es la diferencia entre
+var, let y const. Incluya un ejemplo sencillo de cada una e indique cuál de
+estas formas ya no se recomienda utilizar actualmente y por qué.</b>
+
+<p>R.- Las variables en JS guardan informacion o datos:</p>
+
+<p>VAR: es para crear variables y se puede cambiar su valor pero puede dar problemas porque permite redeclarar variables<br> Por ejemplo:<br>
+    var nombre = "Vladimir";<br>
+    console.log(nombre);<br>
+    nombre = "Harry";<br>
+    console.log(nombre);<br>
+    CONSOLA:<br>
+    Vladimir <br>
+    Harry
+</p>
+
+<p>LET: tambien es para crear variables pero este es mas seguro y permite cambiar variables<br>Por ejemplo:<br>
+    let edad = 22;<br>
+    console.log(edad);<br>
+    edad = 23;<br>
+    console.log(edad);<br>
+    CONSOLA: <br>
+    22 <br>
+    23
+</p>
+
+<p>CONST: Se usa cuando los valores no deben cambiar y no permite modificar el valor <br>Por ejemplo: <br>
+const pais = "Bolivia"; <br>
+console.log(pais); <br>
+pais = "Argentina"; <br>
+CONSOLA: <br> 
+Mostrara error porque una constante no se puede modificar
+</p>
+
+</body>
+</html>
