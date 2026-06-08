@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="pantalla" readonly>
+
+        <div class="botones">
+        <button class="btn-rojo" onclick="BorrarNumero()">C</button>
+        <button class="btn-rojo" onclick="LimpiarPantalla()">AC</button>
+        <button onclick="AgregarValor('%')">%</button>
+        <button onclick="AgregarValor('x')">x</button>
+
+        <button onclick="AgregarValor('7')">7</button>
+        <button onclick="AgregarValor('8')">8</button>
+        <button onclick="AgregarValor('9')">9</button>
+        <button onclick="AgregarValor('÷')">÷</button>
+
+        <button onclick="AgregarValor('4')">4</button>
+        <button onclick="AgregarValor('5')">5</button>
+        <button onclick="AgregarValor('6')">6</button>
+        <button onclick="AgregarValor('-')">-</button>
+
+        <button onclick="AgregarValor('1')">1</button>
+        <button onclick="AgregarValor('2')">2</button>
+        <button onclick="AgregarValor('3')">3</button>
+
+        <button class="suma" onclick="AgregarValor('+')">+</button>
+
+        <button onclick="AgregarValor('.')">.</button>
+        <button onclick="AgregarValor('0')">0</button>
+        <button onclick="Calcular()">=</button>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
